@@ -4,7 +4,7 @@ const TOKEN = 'NDkxOTk5MTc3NDQyNTkwNzMx.DoQB3A.TaFbW9Ddud8qk_d7XqB5GvKhqV0'
 
 bot.registry.registerGroup('commands', 'Commands');
 bot.registry.registerDefaults();
-bot.registry.registerCommandsIn(__dirname + '/commands');
+bot.registry.registerCommandsIn(__dirname);
 
 bot.on('message', function(message)
 {
